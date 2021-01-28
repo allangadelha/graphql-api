@@ -2,11 +2,11 @@ import User from '../../../models/User'
 
 export default {
     User: {
-        fullName: () => 'Teste',
+        fullName: (user) => `${user.firstName} ${user.lastName}`,
     },
     Query: {
         users: () => User.find(),
-        user: (_, { id }) => user.findById(id)
+        user: (_, { id }) => User.findById(id)
     },
 
     Mutation: {
