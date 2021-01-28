@@ -3,8 +3,11 @@
 ### Fontes:
 
 01 - GraphQL - Dicionário do Programador - https://www.youtube.com/watch?v=xbLpIhCsIdg
+
 02 - GraphQL - Página oficial - https://graphql.org/
+
 03 - Entendendo o que é GraphQL através de exemplos - https://blog.codecasts.com.br/entendendo-o-que-%C3%A9-graphql-atrav%C3%A9s-de-exemplos-c2fa35e8bf63
+
 04 - GraphQL: Pra que serve, Conceitos e Hello World - https://www.youtube.com/watch?v=7RoHxSGVAdU
 
 #### Conceitos:
