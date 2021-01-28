@@ -1,6 +1,9 @@
 import User from '../../../models/User'
 
 export default {
+    User: {
+        fullName: () => 'Teste',
+    },
     Query: {
         users: () => User.find(),
         user: (_, { id }) => user.findById(id)
