@@ -10,6 +10,8 @@
 
 04 - GraphQL: Pra que serve, Conceitos e Hello World - https://www.youtube.com/watch?v=7RoHxSGVAdU
 
+05 - GraphQL aplicado no Node.js | Diego Fernandes - https://www.youtube.com/watch?v=oD8GqurXZ-0
+
 #### Conceitos:
 
 - usados no desenvolvimento de APIs;
@@ -87,8 +89,21 @@ type Livro implements Publicacao { //tipo de dados "Livro" que implementa a inte
 - no GraphQL para modificações de dados o GrahQL utiliza mutation;
 - no GraphQL toda query pode ser implementada para realizar uma escrita de dados;
 - no GraphQL libs para várias linguagens de programação;
+- permite multiplas querys em uma única requisição (deixando a aplicação mais performática);
+- bibliotecas próprias que auxiliam no desenvolvimento;
+- ao invés dos métodos tradicionais (GET, POST, PUT, DELETE), são utlizados apenas 03:
+	- QUERY: retornar dados, a exemplo do GET no utilização de REST;
+	- MUTATION: criar, alterar e deletar informação (POST, PUT e DELETE utilizados no REST);
+	- SUBSCRIPTION: para oubir informação em tempo real (real-time nativo);
+- mais "responsabilidade" para o front-end (autonomia  de controle de dados para o front-end);
 
 ### Características do GraphQL
 
-- ID: representa a "chave primária" do "type" (tipo)
-- é possível realizar aninhamento de "types"
+- ID: representa a "chave primária" do "type" (tipo);
+- é possível realizar aninhamento de "types";
+- schema: funcionam como "rotas";
+- resolvers: funcionam como "controllers";
+- Playground: interface visual que auxilia no desenvolvimento (IDE do GraphQL);
+- no Playground são geradas documentações com base no que é criado na aplicação:
+	- aba Docs: documentação de Querys e Mutations definidas na aplicação e disponíveis para uso;
+	- aba Schema: código da aplicação;
